@@ -26,7 +26,6 @@ pipeline {
                         allowMissing: false,
                         alwaysLinkToLastBuild: false,
                         keepAll: false,
-                        reportDir: 'target/surefire-reports/',
                         reportFiles: 'emailable-report.html',
                         reportName: 'HTML Report',
                         reportTitles: '',
